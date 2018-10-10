@@ -7,14 +7,18 @@ This session is aimed to help us learn new things that we can implement in our d
 
 ## Exercises
 
-Refactor
+### Refactor
+
+Refactor some code moving from a for-loop --> map/filter/reduce
 
 - [Exercise 1](/refactor/exercise-1.spec.js)
 - [Exercise 2](/refactor/exercise-2.spec.js)
 - [Exercise 3](/refactor/exercise-3.spec.js)
 - [Exercise 4](/refactor/exercise-4.spec.js)
 
-GroupBy
+### GroupBy
+
+Implement GroupBy without lodash to understand what it is doing, why and when to use it
 
 - [Exercise 1](/groupBy/exercise-1.spec.js)
 - [Exercise 2](/groupBy/exercise-2.spec.js)
@@ -37,17 +41,9 @@ Each exercise has it's own set of tests
 yarn test --watch
 ```
 
-## Workshops aims
-
-Refactor some code moving from a for-loop --> map --> reduce --> groupBy with pre-written tests
-Implement GroupBy without lodash to understand what it is doing, why and when to use it
-
-Example exercise
+## Further reading
 
 - [Refactoring video store](https://www.martinfowler.com/articles/refactoring-video-store-js/)
-
-Further reading
-
 - [Martin Fowler - Refactoring 2nd edition](https://martinfowler.com/articles/refactoring-2nd-ed.html#rough-cut-available-on-safari)
 
 ## The answers
