@@ -8,6 +8,8 @@ const products = [
 
 function sortByQuantity(items) {
   // your code goes here
+
+  ////////// Answer
   return _.sortBy(items, "quantity").reverse();
 }
 

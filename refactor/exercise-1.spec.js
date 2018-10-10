@@ -27,6 +27,13 @@ function longestFullName(persons) {
     }
   }
   return longestName;
+
+  ////////// Answer
+  // return people.reduce((acc, { firstname, lastname }) => {
+  //     return firstname.length + lastname.length > acc.length
+  //     ? (acc = `${firstname} ${lastname}`)
+  //     : acc;
+  // }, "");
 }
 
 // console.log(longestFullName(wolfPack)) //returns "Oleksandr Hrishchuk"

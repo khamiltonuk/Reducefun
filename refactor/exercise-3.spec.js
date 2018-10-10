@@ -15,6 +15,9 @@ function maxMatrix(matrix) {
     }
   }
   return highestNumber;
+
+  ////////// Answer
+  // return Math.max(...[].concat.apply([], matrix));
 }
 const matrixReloaded = [[1, 6, 7], [7, 8, 4], [3, 5, 0]];
 
