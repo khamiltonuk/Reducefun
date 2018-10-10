@@ -1,0 +1,26 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Exercises to practice refactoring javascript with functional methodology. Refactoring code is a skill that can be learnt, in this session we will identify common techniques to leave code in a better state than you found it.",
+  "main": "exercise-1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khamiltonuk/Reducefun.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khamiltonuk/Reducefun/issues"
+  },
+  "homepage": "https://github.com/khamiltonuk/Reducefun#readme",
+  "devDependencies": {
+    "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "flow": "^0.2.3",
+    "lodash": "^4.17.11"
+  }
+}
