@@ -27,9 +27,6 @@ function howManyTimes(words, word) {
     if (words[i].toLowerCase() === word.toLowerCase()) wordCount++;
   }
   return wordCount;
-
-  ////////// Answer
-  // return words.filter(item => item === word).length;
 }
 
 // console.log(howManyTimes(words, "matter")); // returns 4

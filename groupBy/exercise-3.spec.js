@@ -12,17 +12,6 @@ const comments = [
 
 const countTheComments = function(comments) {
   // your code goes here
-
-  ////////// Answer
-  return _.chain(comments)
-    .groupBy("username")
-    .map((item, username) => ({
-      username,
-      comment_count: _.size(item)
-    }))
-    .sortBy("comment_count")
-    .reverse()
-    .value();
 };
 
 describe("#countTheComments", () => {

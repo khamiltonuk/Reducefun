@@ -4,12 +4,6 @@ const words = ["Test", "Hello", "World", "Node", "JavaScript"];
 
 const sortedAndCapitalized = function(listOfWords) {
   // your code goes here
-
-  ////////// Answer
-  return _.chain(listOfWords)
-    .sortBy()
-    .map(item => _.toUpper(item + "CHAINED"))
-    .value();
 };
 
 describe("#sortedAndCapitalized", () => {

@@ -4,22 +4,6 @@ const words = ["Test", "Hello", "World", "Node", "JavaScript"];
 
 const sortedAndCapitalized = function(orders) {
   // your code goes here
-
-  //////// Answer
-  return _.chain(orders)
-    .groupBy("article")
-    .map(item => {
-      const total_orders = item.reduce((acc, item) => {
-        return acc + item.quantity;
-      }, 0);
-      return {
-        article: item[0].article,
-        total_orders
-      };
-    })
-    .sortBy("total_orders")
-    .reverse()
-    .value();
 };
 
 const worker = function(orders) {};
