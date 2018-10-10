@@ -18,7 +18,7 @@ Refactor some code moving from a for-loop --> map/filter/reduce
 
 ### GroupBy
 
-Implement GroupBy without lodash to understand what it is doing, why and when to use it
+Implement GroupBy without lodash to understand what it is doing, why and when to use it.
 
 - [Exercise 1](/groupBy/exercise-1.spec.js)
 - [Exercise 2](/groupBy/exercise-2.spec.js)
@@ -27,7 +27,7 @@ Implement GroupBy without lodash to understand what it is doing, why and when to
 
 ## Getting started
 
-you will need to install the dependencies before you get started
+You will need to install the dependencies before you get started.
 
 ```bash
 yarn
@@ -35,7 +35,7 @@ yarn
 
 ## Running tests
 
-Each exercise has it's own set of tests
+Each exercise has it's own set of tests.
 
 ```bash
 yarn test --watch
@@ -48,7 +48,7 @@ yarn test --watch
 
 ## The answers
 
-if you get really stuck you can checkout out a branch with answers
+If you get really stuck you can checkout out a branch with answers.
 
 ```bash
 git checkout answers
