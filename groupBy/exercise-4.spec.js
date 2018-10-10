@@ -1,31 +1,31 @@
 const _ = require("lodash");
 
-const words = ["Test", "Hello", "World", "Node", "JavaScript"];
+const orders = [
+  { article: 1, quantity: 4 },
+  { article: 2, quantity: 2 },
+  { article: 1, quantity: 5 }
+];
 
-const sortedAndCapitalized = function(orders) {
+const sortedOrders = function(orders) {
   // your code goes here
 };
 
-const worker = function(orders) {};
-
-describe("#sortedAndCapitalized", () => {
-  it("should return list of words capitalized and in alphabetical order", () => {
-    expect(sortedAndCapitalized(words)).toEqual([
-      "HELLOCHAINED",
-      "JAVASCRIPTCHAINED",
-      "NODECHAINED",
-      "TESTCHAINED",
-      "WORLDCHAINED"
+describe("#sortedOrders", () => {
+  it("Calculates the total number of orders for each article Sorts the resulting array so that the articles with the highest number of orders are on top", () => {
+    expect(sortedOrders(orders)).toEqual([
+      { article: 1, total_orders: 9 },
+      { article: 2, total_orders: 2 }
     ]);
   });
 });
 
 /**
- * _.chain(value).
+ * _.reduce(collection, [callback=identity], [accumulator]).
  *
- * chain lets you chain or link several Lo-Dash methods together
- * on a collection (arrays, objects) explicitly and then finally
- * returns the value of the whole operation when .value() function is called
- * https://lodash.com/docs/#chain
+ * reduce goes through collection, calls callback each time
+ * and takes a rolling accumulator that it will provide to each call.
+ * Each iteration, callback will be called as callback(accumulator,
+ * value, index|key, collection) (Finally, a different callback!).
+ * https://lodash.com/docs/#reduce
  *
  */
