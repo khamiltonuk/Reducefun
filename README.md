@@ -5,6 +5,36 @@ Refactoring code is a skill that can be learnt, in this session we will identify
 
 This session is aimed to help us learn new things that we can implement in our daily work to help us solve problems.
 
+## Exercises
+
+Refactor
+
+- [Exercise 1](/refactor/exercise-1.spec.js)
+- [Exercise 2](/refactor/exercise-2.spec.js)
+- [Exercise 3](/refactor/exercise-3.spec.js)
+- [Exercise 4](/refactor/exercise-4.spec.js)
+
+GroupBy
+
+- [Exercise 1](/groupBy/exercise-1.spec.js)
+- [Exercise 2](/groupBy/exercise-2.spec.js)
+- [Exercise 3](/groupBy/exercise-3.spec.js)
+- [Exercise 4](/groupBy/exercise-4.spec.js)
+
+## Getting started
+
+you will need to install the dependencies before you get started
+
+```bash
+yarn
+```
+
+## Running tests
+
+```bash
+yarn test --watch
+```
+
 ## Workshops aims
 
 Refactor some code moving from a for-loop --> map --> reduce --> groupBy with pre-written tests
@@ -17,3 +47,11 @@ Example exercise
 Further reading
 
 - [Martin Fowler - Refactoring 2nd edition](https://martinfowler.com/articles/refactoring-2nd-ed.html#rough-cut-available-on-safari)
+
+## The answers
+
+if you get really stuck you can checkout out a branch with answers
+
+```bash
+git checkout answers
+```
