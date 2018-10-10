@@ -31,6 +31,8 @@ yarn
 
 ## Running tests
 
+Each exercise has it's own set of tests
+
 ```bash
 yarn test --watch
 ```
